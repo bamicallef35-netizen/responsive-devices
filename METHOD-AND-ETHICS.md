@@ -2,7 +2,7 @@
 
 ## Method
 
-These are proposals in Archigram's sense: precise enough to provoke, deliberately not shipped. One rule keeps them honest. Every device is grounded in real, cheap, existing parts, named with rough prices, and split explicitly into what is achievable today and what remains speculative. That split is the point. It is how a speculative proposal stays defensible instead of drifting into a product claim it cannot meet.
+These are proposals in Archigram's sense: precise enough to provoke, deliberately not shipped. Each page follows the scenario format R&Sie(n) used for every project — programme, area, cost, team, a one-paragraph premise — with the premise written as a proposal and the cost as a parts list. The format is borrowed; the devices are not Roche's. One rule keeps them honest. Every device is grounded in real, cheap, existing parts, named with rough prices, and split explicitly into what is achievable today and what remains speculative. That split is the point. It is how a speculative proposal stays defensible instead of drifting into a product claim it cannot meet.
 
 ## Glossary — literal, no metaphor
 
