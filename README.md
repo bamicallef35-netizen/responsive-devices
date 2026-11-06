@@ -25,7 +25,7 @@ Where a working repository exists, the dossier page is the hardware half of a th
 
 ## keyring — senses you can carry
 
-A second series, pocket-sized: eight devices that each add one channel of the world to the wearer's umwelt — the magnetic field as touch, the ultraviolet a bee sees, the infrared a pit viper feels, ultrasound brought down into hearing, the sky's polarisation, nearby radio, vibration below hearing, the flicker of lamps — for roughly £3 to £15 each, with firmware short enough to read in a minute (`make sketches` syntax-checks all of it) and a drawn plate per device. See [`keyring/`](keyring/README.md) and the [plates](plates/), or the [gallery page](https://benmicallef.github.io/responsive-devices/).
+A second series, pocket-sized: eight devices that each add one channel of the world to the wearer's umwelt — the magnetic field as touch, the ultraviolet a bee sees, the infrared a pit viper feels, ultrasound brought down into hearing, the sky's polarisation, nearby radio, vibration below hearing, the flicker of lamps — for roughly £3 to £15 each, with firmware short enough to read in a minute (`make sketches` syntax-checks all of it) and a drawn plate per device. See [`keyring/`](keyring/README.md) and the [plates](plates/) — all eight on [one printable sheet](plates/keyring-sheet.svg) — or the [gallery page](https://benmicallef.github.io/responsive-devices/).
 
 ## Honesty first
 
