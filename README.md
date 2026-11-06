@@ -23,6 +23,10 @@ Every device states, separately and plainly: the cybernetic idea it foregrounds;
 
 Where a working repository exists, the dossier page is the hardware half of a thing whose software half already runs and is tested; the page says exactly which half is which.
 
+## keyring — senses you can carry
+
+A second series, pocket-sized: eight devices that each add one channel of the world to the wearer's umwelt — the magnetic field as touch, the ultraviolet a bee sees, the infrared a pit viper feels, ultrasound brought down into hearing, the sky's polarisation, nearby radio, vibration below hearing, the flicker of lamps — for roughly £3 to £15 each, with firmware short enough to read in a minute (`make sketches` syntax-checks all of it) and a drawn plate per device. See [`keyring/`](keyring/README.md) and the [plates](plates/), or the [gallery page](https://benmicallef.github.io/responsive-devices/).
+
 ## Honesty first
 
 None of these diagnoses, treats or improves any medical or psychological condition. None reads emotions. None sends data anywhere by default. Prices are rough, dated, and move. Where a device touches the body or senses a person, its ethics note says exactly what is sensed, where it goes and how long it lives.
