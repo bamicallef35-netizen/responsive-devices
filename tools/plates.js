@@ -49,8 +49,8 @@ function object(d) {
   // sensor window: left third
   g += `<rect x="${x + 60}" y="${y + 40}" width="70" height="70" fill="none" stroke="${INK}" stroke-width="1"/>`;
   g += `<rect x="${x + 72}" y="${y + 52}" width="46" height="46" fill="${RULE}" stroke="none"/>`;
-  g += `<line x1="${x + 95}" y1="${y + 40}" x2="${x + 95}" y2="${y + 20}" stroke="${INK2}" stroke-width="0.8"/>`;
-  g += text(x + 95, y + 12, "sensor: " + d.sensor, { size: 11, fill: INK2, anchor: "middle" });
+  g += `<line x1="${x + 95}" y1="${y + 110}" x2="${x + 95}" y2="${y + 122}" stroke="${INK2}" stroke-width="0.8"/>`;
+  g += text(x + 60, y + 136, "sensor: " + d.sensor, { size: 10, fill: INK2 });
   // output: right part — a bar of five squares, or a circle
   if (/LED bar|five-LED/.test(d.output)) {
     for (let i = 0; i < 5; i++) g += `<rect x="${x + 200 + i * 24}" y="${y + 60}" width="16" height="16" fill="${i < 3 ? ACCENT : "none"}" stroke="${INK}" stroke-width="1"/>`;
@@ -70,10 +70,10 @@ function object(d) {
   g += `<line x1="${x + 250}" y1="${y + 110}" x2="${x + 250}" y2="${y + 140}" stroke="${INK2}" stroke-width="0.8"/>`;
   g += text(x + 250, y + 154, "output: " + d.output, { size: 11, fill: INK2, anchor: "middle" });
   // microcontroller + power, bottom-left of the body
-  g += `<rect x="${x + 60}" y="${y + 130}" width="54" height="34" fill="none" stroke="${INK}" stroke-width="0.8"/>`;
-  g += text(x + 87, y + 151, "mcu", { size: 10, fill: INK2, anchor: "middle" });
-  g += `<circle cx="${x + 150}" cy="${y + 147}" r="14" fill="none" stroke="${INK}" stroke-width="0.8"/>`;
-  g += text(x + 150, y + 151, "⌀", { size: 10, fill: INK2, anchor: "middle" });
+  g += `<rect x="${x + 60}" y="${y + 146}" width="54" height="30" fill="none" stroke="${INK}" stroke-width="0.8"/>`;
+  g += text(x + 87, y + 165, "mcu", { size: 10, fill: INK2, anchor: "middle" });
+  g += `<circle cx="${x + 150}" cy="${y + 161}" r="13" fill="none" stroke="${INK}" stroke-width="0.8"/>`;
+  g += text(x + 150, y + 165, "cell", { size: 9, fill: INK2, anchor: "middle" });
   g += text(x + 40, y + h + 34, d.mcu + "  /  " + d.power, { size: 11, fill: INK2 });
   return g;
 }
